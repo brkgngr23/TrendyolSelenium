@@ -1,0 +1,40 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/burak/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/burak/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 4306milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4306"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56384"}
+{"logLevel":"info","message":"Listening on port:56384"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInMultipleWords' and 'StepImplementation.verifyVowelsCountInMultipleWords'"}
+{"logLevel":"debug","message":"Found Almost all words have vowels {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.pages.selenium.trendyol.PageTrendyolLogin.loginn' and 'com.trendyol.pages.selenium.trendyol.PageTrendyolLogin.loginn'"}
+{"logLevel":"debug","message":"Found Hazırlık2 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.setLanguageVowels' and 'StepImplementation.setLanguageVowels'"}
+{"logLevel":"debug","message":"Found Vowels in English language are {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.test.selenium.trendyol.TrendyolLoginTest.Trendyol_Deneme2' and 'com.trendyol.test.selenium.trendyol.TrendyolLoginTest.Trendyol_Deneme2'"}
+{"logLevel":"debug","message":"Found Test Hazırlık2 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInWord' and 'StepImplementation.verifyVowelsCountInWord'"}
+{"logLevel":"debug","message":"Found The word {} has {} vowels. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.test.selenium.trendyol.TrendyolLoginTest.Trendyol_Deneme' and 'com.trendyol.test.selenium.trendyol.TrendyolLoginTest.Trendyol_Deneme'"}
+{"logLevel":"debug","message":"Found Test Hazırlık in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tThe word {} has {} vowels. : public void verifyVowelsCountInWord(String word, ınt expectedCount)"}
+{"logLevel":"debug","message":"\tHazırlık2 : public void loginn()"}
+{"logLevel":"debug","message":"\tAlmost all words have vowels {} : public void verifyVowelsCountInMultipleWords(Table wordsTable)"}
+{"logLevel":"debug","message":"\tfinally : public String getTextOfElement(WebElement elem)"}
+{"logLevel":"debug","message":"\tTest Hazırlık : public void Trendyol_Deneme() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tdeprecation : public WebDriver setUpBrowser(String browser)"}
+{"logLevel":"debug","message":"\tTest Hazırlık2 : public void Trendyol_Deneme2() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tVowels in English language are {}. : public void setLanguageVowels(String vowelString)"}
+{"logLevel":"debug","message":"Executing 'Test Hazırlık' using 'class com.trendyol.test.selenium.trendyol.TrendyolLoginTest.Trendyol_Deneme"}
+{"logLevel":"debug","message":"Executing 'Hazırlık2' using 'class com.trendyol.pages.selenium.trendyol.PageTrendyolLogin.loginn"}
